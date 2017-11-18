@@ -1,0 +1,45 @@
+
+
+/* Center all tables */
+div.table table {
+    margin: 0 auto;
+}
+
+#t126 td {
+    vertical-align: middle;
+}
+
+/* Tables with single letters in columns */
+#t40 td, #t41 td, #t42 td, #t44 td, #t55 td, #t57 td {
+    width: 2em;
+    text-align: center;
+}
+
+/* Frequency table (with three columns) */
+.frequency {
+    width: 80%;
+    font-size: small;
+}
+
+.frequency .first, .frequency .second {
+    width: 20%;
+}
+
+/* Form in Chapter III. */
+.fieldannot {
+    font-size: smaller;
+    text-align: center;
+}
+
+.fieldlabel {
+    display: table-cell;
+    margin-right: 0.5em;
+    white-space: nowrap;
+}
+
+.dashfill {
+    color: white;
+    border-bottom: 1px dashed black;
+    width: 100%;
+    display: table-cell;
+}
